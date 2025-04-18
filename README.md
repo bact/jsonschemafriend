@@ -23,7 +23,7 @@ in which case we intend to discontinue this fork.
 ```xml
 <dependency>
     <groupId>org.metaeffekt.bundle.jsonschemafriend</groupId>
-    <artifactId>ae-jsonschemafriend-bundle</artifactId>
+    <artifactId>ae-jsonschemafriend-core</artifactId>
     <version>0.12.5-1</version>
 </dependency>
 ```
