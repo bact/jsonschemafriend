@@ -8,7 +8,7 @@ to facilitate publishing under the `org.metaeffekt` namespace at:
 https://central.sonatype.com/artifact/org.metaeffekt/jsonschemafriend.
 
 We plan to update the package on Maven Central with every stable release
-of the original package.
+of the original package, starting from version 0.12.4 onwards.
 
 Any issues related to the jsonschemafriend library itself should be
 reported to the original repository at:
