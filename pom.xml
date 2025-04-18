@@ -5,7 +5,7 @@
 
     <groupId>org.metaeffekt.bundle.jsonschemafriend</groupId>
     <artifactId>ae-jsonschemafriend-bundle</artifactId>
-    <version>0.12-SNAPSHOT</version>
+    <version>0.12.5-1</version>
 
     <packaging>pom</packaging>
 
@@ -174,11 +174,14 @@
                         <groupId>org.metaeffekt.core</groupId>
                         <artifactId>ae-version-maven-plugin</artifactId>
                         <!-- version is fixed; core is not regarded a dependency -->
-                        <version>0.136.0</version>
+                        <version>0.135.10</version>
                         <configuration>
-                            <projectVersion>${projectVersion}</projectVersion>
+                            <propertyVersionMap>
+                                <ae.jsonschemafriend.version>${ae.jsonschemafriend.version}</ae.jsonschemafriend.version>
+                            </propertyVersionMap>
+                            <projectVersion>${ae.jsonschemafriend.version}</projectVersion>
                             <groupIdVersionMap>
-                                <org.metaeffekt.bundle.jsonschemafriend>${projectVersion}</org.metaeffekt.bundle.jsonschemafriend>
+                                <org.metaeffekt.bundle.jsonschemafriend>${ae.jsonschemafriend.version}</org.metaeffekt.bundle.jsonschemafriend>
                             </groupIdVersionMap>
                             <includes>**/pom.xml</includes>
                             <excludes>**/.*/**/*</excludes>
