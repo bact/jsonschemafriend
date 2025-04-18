@@ -5,7 +5,7 @@ Due to various reasons, we require jsonschemafriend to be published on
 To enable this in the short term, the project was forked, and
 [additional configurations were added](https://github.com/org-metaeffekt/jsonschemafriend/blob/master/NOTICE)
 to facilitate publishing under the `org.metaeffekt` namespace at:
-https://central.sonatype.com/artifact/org.metaeffekt/jsonschemafriend.
+https://central.sonatype.com/artifact/org.metaeffekt.bundle.jsonschemafriend/ae-jsonschemafriend-bundle.
 
 We plan to update the package on Maven Central with every stable release
 of the original package, starting from version 0.12.4 onwards.
@@ -17,6 +17,16 @@ Maven Central-related issues, however, should be reported to this repository.
 
 We hope the original project also decides to publish to Maven Central,
 in which case we intend to discontinue this fork.
+
+**Usage:** pom.xml dependency snippet:
+
+```xml
+<dependency>
+    <groupId>org.metaeffekt.bundle.jsonschemafriend</groupId>
+    <artifactId>ae-jsonschemafriend-bundle</artifactId>
+    <version>0.12.4</version>
+</dependency>
+```
 
 The original README.md content is retained below.
 
