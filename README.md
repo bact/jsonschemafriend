@@ -1,3 +1,14 @@
+# metaeffekt jsonschemafriend Bundle
+
+Due to various reasons we require jsonschemafriend to be published on Maven Central.
+In order to enable this in the short-term the project was forked and additional 
+configurations were added to enable publishing in the org.metaeffekt namespace.
+
+We hope the original project decides to also publish to maven central. In this case
+we intend to discontinue this fork.
+
+In the following the original README.md content is retained.
+
 # jsonschemafriend
 
 jsonschemafriend is a JSON Schema-based data validator, delivered as a Java

@@ -1,0 +1,21 @@
+This is a forked version of
+
+    https://github.com/jimblackler/jsonschemafriend
+
+The fork was created to enable short-term publishing to Maven Central.
+
+The fork is available at
+
+    https://github.com/org-metaeffekt/jsonschemafriend
+
+The following changes were applied:
+
+- the README.md file was extended to describe the purpose of the changes.
+- this NOTICE file was added to adopt and adhere to 4.d of the Apache License 2.0.
+- pom.xml and libraries/pom.xml were added to faciliate a maven build and apply the standard publishing scheme we use.
+- META-INF folders with LICENSE and NOTICE where added.
+
+The original code is under Apache License 2.0.
+
+All changes and add-ons are also license under the Apache License 2.0.
+
