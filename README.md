@@ -59,7 +59,7 @@ Add the project as a dependency in the module's `build.gradle`.
 
 ```groovy
 dependencies {
-    implementation 'net.jimblackler.jsonschemafriend:core:0.12.3'
+    implementation 'net.jimblackler.jsonschemafriend:core:0.12.5'
     // ...
 }
 ```
@@ -79,14 +79,14 @@ dependencies {
 <dependency>
     <groupId>net.jimblackler.jsonschemafriend</groupId>
     <artifactId>core</artifactId>
-    <version>0.12.3</version>
+    <version>0.12.5</version>
 </dependency>
 ```
 
 # Usage
 
 Javadocs can be found
-[here](https://javadoc.jitpack.io/com/github/jimblackler/jsonschematypes/jsonschemafriend/0.12.3/javadoc/net/jimblackler/jsonschemafriend/package-summary.html).
+[here](https://javadoc.jitpack.io/com/github/jimblackler/jsonschematypes/jsonschemafriend/0.12.5/javadoc/net/jimblackler/jsonschemafriend/package-summary.html).
 
 ## Basic example using JSON strings
 
