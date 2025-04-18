@@ -24,7 +24,7 @@ in which case we intend to discontinue this fork.
 <dependency>
     <groupId>org.metaeffekt.bundle.jsonschemafriend</groupId>
     <artifactId>ae-jsonschemafriend-bundle</artifactId>
-    <version>0.12.4</version>
+    <version>0.12.4-1</version>
 </dependency>
 ```
 
