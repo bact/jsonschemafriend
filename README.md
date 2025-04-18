@@ -8,7 +8,7 @@ to facilitate publishing under the `org.metaeffekt` namespace at:
 https://central.sonatype.com/artifact/org.metaeffekt.bundle.jsonschemafriend/ae-jsonschemafriend-bundle.
 
 We plan to update the package on Maven Central with every stable release
-of the original package, starting from version 0.12.4 onwards.
+of the original package, starting from version 0.12.5 onwards.
 
 Any issues related to the jsonschemafriend library itself should be
 reported to the original repository at:
@@ -24,7 +24,7 @@ in which case we intend to discontinue this fork.
 <dependency>
     <groupId>org.metaeffekt.bundle.jsonschemafriend</groupId>
     <artifactId>ae-jsonschemafriend-bundle</artifactId>
-    <version>0.12.4-1</version>
+    <version>0.12.5-1</version>
 </dependency>
 ```
 
